@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+.background-color {
+	color: #FFF;
+	text-align: left;
+	font-size: 24px;
+}
+.center {
+	text-align: center;
+}
+.center {
+	text-align: left;
+}
+.center {
+	text-align: left;
+}
+#pricing_table tr td {
+}
+#apDiv1 {
+	position:absolute;
+	left:440px;
+	top:352px;
+	width:98px;
+	height:30px;
+	z-index:1;
+}
+#pricing_table tr td p {
+	font-size: 14px;
+}
+
+#center {
+	text-align: center;
+}
+#center {
+	text-align: center;
+}
+#center {
+	text-align: center;
+}
+#pricing_table tr th p {
+	color: #FFF;
+}
+
+.top-left-corner{
+	border-radius: 10px 0 0 0 ;
+}
+.top-right-corner{
+	border-radius:  0 10px 0 0 ;
+}
+.bottom-left-corner{
+	border-radius:  0 0 0 10px  ;
+}
+.bottom-right-corner{
+	border-radius: 0 0 10px 0   ;
+}
+</style>
+</head>
+
+<body>
+<table id="pricing_table" width="852" height="381" align="center">
+     <tr>
+          <th   width="299" height="102" bgcolor="#7EB91E" class="background-color top-left-corner  td1" scope="col">&nbsp;&nbsp;&nbsp;Choose Your Plan</th>
+          <th class="td2"   width="114" bgcolor="#93CDDD" scope="col"><p>Starter
+          </p>
+          <p>700 ฿</p>
+          <p>/month</p></th>
+          <th width="114" bgcolor="#21B0E1" scope="col" class="td3"><p>Medium</p>
+               <p>1200 ฿</p>
+          <p>/month</p></th>
+          <th width="114" bgcolor="#008CDA" scope="col" class= "top-right-corner td4"><p>Enterprise</p>
+          <p>2000 ฿</p>
+          <p>/month</p></th>
+     </tr>
+     <tr>
+          <td height="29" class="td1"><p>&nbsp;&nbsp;&nbsp;จำนวนรายชื่อลูกค้าสูงสุดที่ระบบจัดเก็บได้</p></td>
+          <td style="text-align: center" class="td2">50</td>
+          <td class="td3" style="text-align: center">ไม่จำกัด</td>
+          <td style="text-align: center" class="td4">ไม่จำกัด</td>
+     </tr>
+     <tr>
+          <td class="td1" style="font-size: 14px">&nbsp;&nbsp;&nbsp;จำนวนเพื่อนร่วมทีมที่สามารถเข้าใช้งานได้</td>
+          <td style="text-align: center" class="td2">n/a</td>
+          <td class="center td3" style="text-align: center">n/a</td>
+          <td style="text-align: center" class="td4">1</td>
+     </tr>
+     <tr>
+          <td class="td1" style="font-size: 14px">&nbsp;&nbsp;&nbsp;จำนวนใบเรียกเก็บเงินที่สามารถออกได้</td>
+          <td style="text-align: center" class="td2">ไม่จำกัด</td>
+          <td class="center td3" id="center">ไม่จำกัด</td>
+          <td id="center" class="td4">ไม่จำกัด</td>
+     </tr>
+     <tr>
+          <td class="td1" style="font-size: 14px">&nbsp;&nbsp;&nbsp;จำนวนผู้รับจ้างที่สามารถออกใบเรียกเก็บเงินท่าน</td>
+          <td style="text-align: center" class="td2">ไม่จำกัด</td>
+          <td id="center" class="td3">ไม่จำกัด</td>
+          <td id="center" class="td4">ไม่จำกัด</td>
+     </tr>
+     <tr>
+          <td class="td1" style="font-size: 14px">&nbsp;&nbsp;&nbsp;จำนวน E-mail ที่เป็นชื่อของท่าน</td>
+          <td style="text-align: center" class="td2">OK</td>
+          <td id="center" class="td3">OK</td>
+          <td id="center" class="td4">OK</td>
+     </tr>
+     <tr>
+          <td class="td1">&nbsp;&nbsp;&nbsp;แผนการจัดการโครงการ, ระยะเวลาการปฏิบัติงาน
+          <br/>&nbsp;&nbsp;&nbsp;การรายงานค่าใช้จ่ายของทีมงาน</td>
+          <td style="text-align: center" class="td2">-</td>
+          <td style="text-align: center" class="td3">-</td>
+          <td id="center" class="td4">OK</td>
+     </tr>
+     <tr>
+          <td height="77" class="bottom-left-corner td1">&nbsp;</td>
+          <td><div class="pricing_select td2" id="select1" ><center><span>Select</span></center></div></td>
+          <td><div class="pricing_select td3" id="select2"><center><span>Select</span></center></div></div></td>
+          <td   class="bottom-right-corner td4" ><div class="pricing_select" id="select3"><center><span>Select</span></center></div></div></td>
+     </tr>
+     
+</table>
+
+<form id = "paypal_button" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="TQ4CGWYFWLFK4">
+<input type="image" src="https://www.paypalobjects.com/en_GB/TH/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+<div id=blueglass></div>
+</body>
+</html>
