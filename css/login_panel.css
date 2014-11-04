@@ -1,0 +1,63 @@
+/* CSS Document */
+
+
+#login_wrapper{
+   	display: block;
+    width: 100% ; height: 500px;  
+     padding: 0;
+    margin: 0;
+	
+}
+
+
+
+#login_panel{
+	display: block; background-color: #F2FAFF; border: 4px solid #96CEF8;
+	 /*border-radius: 10px;*/
+	 margin: 0 auto;
+	  margin-top: 60px; width: 60%; height: 450px;
+}
+
+#login_panel span{
+	display: block; color: #4BACC6; font-family: "Myriad Pro","Calibri","Cordia New"; 
+	width: 370px; font-weight: bold; 
+	text-align: left; margin-top: 0px; margin-right: auto; 
+	margin-bottom: 0px; margin-left: auto; margin-top: 50px; font-size: 40px;
+	
+}
+
+
+.login_field
+{
+	margin-top: 0px; margin-right: auto; margin-bottom: 0px; margin-left: auto; margin-top: 30px; 
+	border: 2px solid #A6A6A6; /*border-radius: 5px;*/ 
+	background-color: white; font-family: "Calibri","Cordia New"; 
+	font-size: 20px; font-weight: bold; display: block; color: #D2D7D8; width: 332px; height: 32px;
+}
+
+#signupButton
+{
+     display: block;
+	 margin: 0 auto;
+	 margin-top: 30px;
+	 width: 370px; height: 69px;
+	background-image: url('../images/signupButton_28x332.png');
+	background-repeat: no-repeat;
+
+	
+}
+#signupButton span
+{
+  display: block;
+  width: 95px;
+  padding: 7px 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-family: "Calibri","Cordia New"; 
+  font-size: 30px; font-weight: bold; display: block; color:rgb(89,89,89); 
+}
+
+
+
+
+

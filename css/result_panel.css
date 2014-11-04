@@ -1,0 +1,118 @@
+/* 
+    Document   : result_panel
+    Created on : 30 ¡.¤. 2555, 15:24:56
+    Author     : lll3ell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+#result_panel{
+	display: inline-block;
+	width: 79.75%;
+	height: auto;
+	/*background-color:#390; */
+}
+#result_panel_mat{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	
+	/*background-color:#C39;*/
+}
+
+
+#control_block{display: block; position: absolute; top: 0; left: 0; width: 100%; height: 160px; }
+#control_block_mat{display: block;position: relative;width: 100%; height: 100%;}
+#searchBox{
+	display:block;
+	position: absolute;
+	outline:none;
+	top: 30px;
+	left: 20px;
+	width: 322px;
+	height: 49px;
+	background-image: url(../images/searchBox4.png);
+	background-repeat:no-repeat;
+	padding-left: 20px;
+	padding-right: 30px;
+	border:none;
+	color: #87878a;
+	font-size: 16px;
+	font-family: "Calibri","Cordia New";
+	text-indent: 10px;
+}
+/*#searchButton{display:block; position: absolute; z-index: 3;top: 20px; left: 550px;width: 202px; height: 69px;/*background-image: url('../images/searchButton1.png');background-repeat:no-repeat;  border:none;color: #87878a;font-size: 24px;font-family: "Calibri","Cordia New" ;text-indent: 10px;}*/
+.searchboxbox{ border: solid 2px #DFDFDF}
+/*#searchBoxMAT{display:block; z-index:-1;top: 20px; left: 50px;width: 430px; height: 77px;background-image: url('../images/searchBox1.png');background-repeat:no-repeat; padding-left: 10px;padding-right: 30px; border:none;}*/
+#finding{display:block; position: absolute; top: 30px; left: 500px; width: 202px; height: 46px;box-shadow: 3px 3px 3px 3px #ccc;  
+    color: #87878a;
+    font-size: 20px;
+    font-family: "Calibri","Cordia New" ;    
+}
+#display_block{ display: block; position: absolute; top: 160px; left: 0; width: 100%; height: auto;padding-bottom:50px;}
+#display_block_mat{ display: block; position: relative;width: 100%; height: 100%;}
+
+
+.display_tab{ display: block;width: 100%; height: 90px; border: solid #bfbfbf;border-width: 0 1px 1px 1px;}
+.display_tab:hover{ background-color:#ffffb2;}
+.display_tab_top{ display: block;width: 100%; height: 90px; border: solid #bfbfbf;border-width:1px 1px 1px 1px;}
+.display_tab_top:hover{ background-color:#ffffb2;}
+/*.display_tab_mat{display: block; position: relative;width: 100%; height: 100%;}*/
+
+.display-checked{display: inline-block; float:left; height:100%;width:7%;border-right: solid #bfbfbf 1px;}
+.checkinList{display:block; margin: 15px 0 0 15px;  width:50px; height:50px;}
+.display-img{display: inline-block; float:left; height:100%;width:7%; border-right: solid #bfbfbf 1px; /* background:url('../images/person1.png'); */ background-repeat:no-repeat;}
+.display-img img{display:block ; width: 50px; margin: 0 auto ; height:50px; margin-top: 20px;}
+.display-detail{display: inline-block;  float:left; height:100%;width:85%;}
+   .block_mat{display: block;position: relative; width: 100%; height: 100%;}
+    .display-detailTitle {display: block; position:absolute; top:0; left:0; width:100%; height:45px; }
+        .display-detailTitle span{ display: block;color:#222222; font-size: 24px;font-family: "Calibri","Cordia New" ;  margin: 5px 0 0 20px;}
+        .display-detailContent{display: block; position:absolute; top:45px;left:0; width:100%; height: 25px;}
+        .display-detailContent span{ display: inline-block;float: left; color: #87878a; font-size: 18px;font-family: "Calibri","Cordia New" ;  margin: 0 0 0 20px;}
+        .display-detailContent a{ display: inline-block; color:#1b75bb; font-size: 20px; font-family: "Calibri","Cordia New" ;  margin-left: 20px;}
+          
+          
+.invokeInputFile{display: inline-block;  width:70px; height:22px; margin-left:20px; border:#0b559b solid 1px; background-color:lightsteelblue;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}        
+.invokeInputFile:hover{background-color:#729fcf; cursor:pointer;}
+.invokeInputFile span{ display: block;width: 55px; color:#222222; font-size: 14px; font-family: "Calibri","Cordia New";  margin:2px 0 0 9px;}   
+.invokeInputFile span{ color:#000000; }
+
+.uploadForm{display: none; position: fixed; 300px; width: 700px; top:100px; left: 350px;   z-index: 99; background-color: lightsteelblue;-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7); -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7); box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);}
+.block_mat{display: block; position: relative; width: 100%; height: 100%;}
+.darkGlass{display: none; position: fixed; top: 0px;left: 0; height: 100%; width: 100%; z-index: 3; background-image: url('../images/darkGlass.png'); background-repeat:repeat; }
+.searchFile{display:block; position: absolute;top: 100px; left: 150px;width: 300px; height: 30px;}
+.fileSubmit{display:block; position: absolute;top: 150px; left: 150px;width: 220px; height: 30px;}
+.class_box_shadow{
+ -moz-box-shadow: 10px 10px 5px #888;
+-webkit-box-shadow: 10px 10px 5px #888;
+box-shadow: 10px 10px 5px #888;
+}
+
+.uploadFileNotification{display:block; position: absolute;top: 200px; left: 150px;width: 220px; height: 30px;}
+.notifi{display: none; position: fixed; top: 50px;left: 350px; height: 150px; width: 700px; z-index: 100; background-color: lightsteelblue;-webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7); -moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7); box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);}
+#addDataPanel{
+	display: block;
+	position: fixed;
+	width: 25%;
+	height: 600px;
+	z-index: 5;
+}
+#addDataPanel_mat{
+	display:block;
+	position:relative;
+	z-index: 20;
+	width:100%;
+	height:100%;
+	background-color:rgb(205,205,205);
+	opacity:0.80;/*background-image: url('../images/addDataPanelBackground.png'); background-repeat: repeat;*/
+}
+.mat{ display: block; position: relative;width: 100%; height: 100%;}
+
+

@@ -1,0 +1,50 @@
+/* 
+    Document   : bizkitStyle
+    Created on : 28 ก.ค. 2555, 16:18:03
+    Author     : lll3ell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+@import url('generic.css');
+@import url('header_panel.css');
+@import url('slide_panel.css');
+@import url('footer_panel.css');
+
+/*****************   CONTENT PART  ****************/
+@import url('mainpage_content.css');
+
+/*****************   CONTENT PART  ****************/
+
+@import url('footer.css');
+
+@import url('login_panel.css');
+@import url('pricing.css');
+@import url('privacy.css');
+
+
+#apDiv3 table {
+	position: absolute;
+	top: 31px;
+	left: 34px;
+	width: 651px;
+}
+#apDiv3 table tr td {
+	text-align: right;
+	position: absolute;
+	font-family: "Myriad Pro", "MS Serif", sans-serif, Calibri;
+}
+
+#privacy_nav_panel #policy_nav li {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+}
+#privacy_nav_panel #policy_nav li b {
+	font-size: 14px;
+	font-family: Tahoma, Geneva, sans-serif;
+}

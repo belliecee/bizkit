@@ -1,0 +1,193 @@
+/* 
+    Document   : footer_panel
+    Created on : 28 ก.ค. 2555, 16:55:07
+    Author     : lll3ell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#footer_panel{
+    display: block;
+    
+    position: absolute;
+    left: 0; top: 440px;
+    width: 100% ; height: 100px;
+    z-index: 12;
+    
+
+     background: #9cdd57; 
+	/* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzljZGQ1NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI5JSIgc3RvcC1jb2xvcj0iI2FhZTE2ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2FhZTE3MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5MmRhNDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #9cdd57 0%, #aae16d 29%, #aae172 70%, #92da46 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9cdd57), color-stop(29%,#aae16d), color-stop(70%,#aae172), color-stop(100%,#92da46)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #9cdd57 0%,#aae16d 29%,#aae172 70%,#92da46 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #9cdd57 0%,#aae16d 29%,#aae172 70%,#92da46 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #9cdd57 0%,#aae16d 29%,#aae172 70%,#92da46 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #9cdd57 0%,#aae16d 29%,#aae172 70%,#92da46 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cdd57', endColorstr='#92da46',GradientType=0 ); /* IE6-8 */
+
+}
+
+#footer_panel_mat{
+    display: block;
+    position: relative;
+    width: 100% ; height: 100%;
+
+}
+
+
+#footer_panel1{
+    display: block;
+    
+    position: absolute;
+    left: 0; 
+    width: 100% ; height: 100px;
+    z-index: 5;
+    
+
+     background: #9cdd57; 
+	/* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzljZGQ1NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI5JSIgc3RvcC1jb2xvcj0iI2FhZTE2ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2FhZTE3MiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM5MmRhNDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #9cdd57 0%, #aae16d 29%, #aae172 70%, #92da46 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9cdd57), color-stop(29%,#aae16d), color-stop(70%,#aae172), color-stop(100%,#92da46)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #9cdd57 0%,#aae16d 29%,#aae172 70%,#92da46 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #9cdd57 0%,#aae16d 29%,#aae172 70%,#92da46 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #9cdd57 0%,#aae16d 29%,#aae172 70%,#92da46 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #9cdd57 0%,#aae16d 29%,#aae172 70%,#92da46 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cdd57', endColorstr='#92da46',GradientType=0 ); /* IE6-8 */
+
+}
+
+
+
+
+#img-control-button1{
+    
+    top: 10px; left: 50px;
+	/*
+	background-image:url(../images/controlButton1.png);
+	background-repeat:no-repeat;
+    */
+}
+#img-control-button1:hover{
+	cursor: pointer;
+}
+.img-control-button1_hover{
+    
+	background-image:url(../images/controlButton1_hover.png);
+	background-repeat:no-repeat;
+
+    
+}
+
+.img-control-button1_normal{
+   
+	background-image:url(../images/controlButton1.png);
+	background-repeat:no-repeat;
+   
+
+}
+
+.img-control-button1_active{
+    
+	background-image:url(../images/controlButton1_active.png);
+	background-repeat:no-repeat;
+
+}
+
+
+
+
+#img-control-button2{
+   
+     top: 10px; left: 200px;
+	/*
+    background-image:url(../images/controlButton2.png);
+	background-repeat:no-repeat;
+	*/
+
+}
+#img-control-button2:hover{
+	cursor: pointer;
+}
+
+.img-control-button2_hover{
+   
+    
+    background-image:url(../images/controlButton2_hover.png);
+	background-repeat:no-repeat;
+	
+}
+
+.img-control-button2_normal{
+    
+	background-image:url(../images/controlButton2.png);
+	background-repeat:no-repeat;
+    
+	
+}
+.img-control-button2_active{
+
+	background-image:url(../images/controlButton2_active.png);
+	background-repeat:no-repeat;
+    
+	
+}
+
+#img-control-button3{
+    
+     top: 10px; left: 350px;
+	 /*
+	 background-image:url(../images/controlButton3.png);
+	background-repeat:no-repeat;
+	*/
+}
+#img-control-button3:hover{
+	cursor: pointer;
+}
+.img-control-button3_hover{
+    
+	 background-image:url(../images/controlButton3_hover.png);
+	background-repeat:no-repeat;
+	
+}
+
+.img-control-button3_normal{
+    
+	background-image:url(../images/controlButton3.png);
+	background-repeat:no-repeat;
+}
+
+.img-control-button3_active{
+    
+	background-image:url(../images/controlButton3_active.png);
+	background-repeat:no-repeat;
+}
+
+.control{
+    display: block;
+    position: absolute;
+    width: 140px; height: 100px;
+	  z-index: 99;
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,409 @@
+/* 
+    Document   : slide
+    Created on : 28 ก.ค. 2555, 16:53:29
+    Author     : lll3ell
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#slide_wrapper{
+    padding: 0;
+   margin: 0;
+   margin: 0 auto;
+    left: 0; top: 120px;
+    width: 100% ;height: 350px;
+    display: block;
+
+    background-color: #0d83dd;
+    z-index: 6;
+   
+}
+#slide_panel{
+      padding: 0px;
+      width: 1350px;
+      height: 350px;
+      display: block;
+      margin: 0px auto;
+      background-color: #0D83DD;
+      z-index: 15;
+   
+}
+
+.slide_panel_mat{
+    position: relative;
+    width: 100% ; height: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    z-index: 9;
+}
+
+#slide_panel_mat_left
+{
+  
+	
+    width: 15% ; height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+    background-color: black;
+}
+
+
+	
+#slide_panel_mat_right
+{
+    width: 15% ; height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    z-index: 99;
+    background-color: black;
+}
+
+
+.slide{
+    
+  margin:0 auto;
+  width:500px;
+  height:450px;
+  z-index: 10;
+  
+
+  
+}
+
+#slide_image{
+    position: absolute;
+    width: 50% ; height: 200px;
+    background-color: blue; 
+    padding: 0;
+    margin: 0;
+}
+
+
+#slide_content{
+    position: absolute;
+    width: 50% ; height: 300px;
+    display: inline-block;
+    background-color: grey; 
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.title_slide_panel {
+     display: block;
+     position: absolute;
+     top:50px; left:50px;
+     width: auto; height: auto;
+     font-weight: bold;
+     color: white;
+     font-size: 40px;
+     font-family: "Calibri","Cordia New","Sans Serif";
+     text-align: left; 
+     z-index: 5;
+  
+}
+
+
+/* CLASS for li beacause each li in the same ul should be the same property*/
+.slide_explanation{
+    display: block; 
+    position: absolute;
+    left: 25px;  top: 150px;
+}
+.slide_explanation li{
+    display:block; 
+    margin-top: 10px;
+    list-style-type:upper-alpha;
+    width: auto ; height: auto;  
+    margin: 0;
+}
+
+.slide_explanation li span{
+    display: block; 
+    color: white;
+    font-size: 22px;
+    font-family: "Calibri","Cordia New" ;
+    text-align: left;
+}
+
+
+
+#slide1_panel{
+   
+    
+    width: 100% ; height: 500px;
+    display: block;
+    z-index: 3;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+#slide2_panel{
+    
+    
+    width: 100% ; height: 470px;
+    display: block;
+    z-index: 3;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#slide3_panel{
+     
+    
+    width: 100% ; height: 470px;
+    display: block;
+    z-index: 3;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#img-orlar-slide1{
+      display: block;
+
+      position: absolute;
+      left: 470px; top:0px;
+
+     width: 874px ; height: 360px;
+
+    
+      background-image: url('../images/orlar_slide1.png');
+      background-repeat: no-repeat;
+      
+      
+}
+#img-orlar-slide1-background{
+      display: block;
+     
+      position: absolute;
+      left: 530px; top: 10px;
+   
+   
+      width: 874px ; height: 360px;
+      background-color: #0d83dd;
+      z-index: 0;
+     
+      
+}
+
+
+#img-slide1{
+      display: block;
+      position: absolute;
+      left: 420px; top: 60px;
+      width: 900px ; height: 700px;
+      background-image: url('../images/img-slide1-2.png');
+      background-repeat: no-repeat;
+      z-index: 9;
+}
+
+
+#img-slide1-1{
+      display: block;
+      position: absolute;
+      left: 550px; top: 50px;
+      width: 786px ; height: 554px;
+      background-image: url('../images/img-slide1.png');
+      background-repeat: no-repeat;
+      z-index: 3;
+}
+
+#img-bizkit-online{
+    
+      display: block;
+      position: absolute;
+      left: 20px; top: 20px;
+      width: 357px ; height: 169px;
+      background-image: url('../images/bizkit_online.png');
+      background-repeat: no-repeat;
+      z-index: 1;
+}
+
+#img-knowmore-button{
+    
+      display: block;
+      position: absolute;
+      left: 60px; top: 270px;
+      width: 199px ; height: 58px;
+      background-image: url('../images/knowmore_button_notext.png');
+      background-repeat: no-repeat;
+      z-index: 2;
+}
+
+
+#img-knowmore-button span{
+    display: block; 
+     width: auto; height: auto;
+     margin: 5px 0 0 0;
+     color: white;
+     font-size: 28px;
+     font-weight: bold;
+     font-family: "Calibri","Cordia New","Sans Serif";
+     text-align: center;  
+     
+    
+}
+#img-knowmore-button span:hover{
+    
+     cursor: pointer;
+     color: yellow;
+     
+}
+
+#tryItForFree{
+    display: block;
+    position: absolute; /*{relative,fixed,static}*/
+    top: 340px; left: 5px;
+    width: 430px; height: 50px;
+    border-top: 4px dashed white;
+	z-index: 99;
+}
+/* FOR MAT using the code shown below*/
+#tryItForFree_mat{
+    display: block;
+    position: relative;
+    width: 100%; height: 100%;
+}
+
+#tryItForFree span{
+    display: block;
+    position: absolute;
+    top: 20px; left: 40px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: "Calibri","Cordia New" ;
+    text-align: left;
+    color: #ffc000;  
+}
+
+
+#img-signup-button{
+    
+      display: block;
+      position: absolute;
+      top: 370px; left: 200px;
+      width: 268px ; height: 75px;
+      background-image: url('../images/redsignup_button_notext.png');
+      background-repeat: no-repeat;
+      z-index: 99;
+}
+
+#img-signup-button span{
+    display: block; 
+     width: 100%; height: 100%;
+     margin: 15px 0 0 0;
+     color: white;
+     font-size: 24px;
+     font-weight: bold;
+     font-family: "Calibri","Cordia New","Sans Serif";
+     text-align: center;  
+     
+    
+}
+#img-signup-button span:hover{
+    
+     cursor: pointer;
+     color: yellow; 
+}
+
+#img-orlar-slide2{
+      display: block;
+      position: absolute;
+     left: 570px;  top: 0;
+     width: 477px ; height: 468px;
+      background-image: url('../images/orlar_slide2.png');
+      
+      background-repeat: no-repeat;
+      z-index: 2;
+      
+}
+#img-orlar-slide2-background{
+    
+      display: block; 
+      position: absolute;
+      left: 720px;  top: 0;
+       width: 477px ; height: 468px;
+      background-color: #0d83dd;
+
+      z-index: 1;  
+}
+
+
+#img-slide2{
+      display: block;
+      position: absolute;
+      left: 500px; top: 40px;
+     width: 769px ; height: 468px;
+      background-image: url('../images/img-slide2-3.png');
+    
+      background-repeat: no-repeat;
+      z-index: 2;
+}
+
+
+#img-slide3{
+      display: block;
+      position: absolute;
+      left: 500px; top: 0px;
+     width: 800px ; height: 570px;
+     background-image: url('../images/bizkitInvoice1.png');
+    
+      background-repeat: no-repeat;
+      z-index: 2;
+}
+
+
+#img-orlar-slide3{
+      display: block;
+
+      position: absolute;
+      left: 450px; top: 20px;
+
+     width: 874px ; height: 420px;
+
+    
+      background-image: url('../images/orlar_slide1.png');
+      background-repeat: no-repeat;
+      
+      
+}
+#img-orlar-slide3-background{
+      display: block;
+     
+      position: absolute;
+      left: 530px; top: 20px;
+   
+   
+      width: 874px ; height: 420px;
+      background-color: #0d83dd;
+      z-index: 0;
+     
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+

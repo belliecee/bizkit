@@ -1,0 +1,207 @@
+/* CSS Document */
+#paysbuy_button{
+   position: absolute;
+   top: 725px;
+   left: 350px;
+
+}
+#paysbuy_button2{
+   position: absolute;
+   top: 710px;
+   left: 100px;
+
+}
+#paypal_button{
+   position: absolute;
+   top: 700px;
+   left: 700px;
+
+}
+
+.addressText{
+	float: left;
+	width: 200px;
+}
+
+
+
+#tableForm1{
+   postion: absolute;	
+	
+}
+
+#tableForm1 td{
+   text-align: right;	
+	
+}
+
+#formContainer{
+	display: none;
+	position:absolute;
+	width:900px;
+	height:165px;
+	z-index:1;
+	left: 20px;
+	top: 700px;
+	
+  margin: 0 auto;
+}
+
+#formContainer_mat{
+		 display: block;
+    position: relative;
+    width: 100%; height: 100%;
+}
+
+
+
+
+#pricing_wrapper{
+	margin-top: 0;
+	height: auto;
+}
+
+#pricing_wrapper_mat{
+	 display: block;
+    position: relative;
+    width: 100%; height: 100%;
+}
+
+#pricing_panel_mat{
+	 display: block;
+    position: relative;
+    width: 100%; height: 100%;
+}
+
+#pricing_background_mat{
+	 display: block;
+    position: relative;
+    width: 100%; height: 100%;
+}
+
+#pricing_panel{
+	
+	width:900px; height: 850px;
+	
+}
+#pricing_background{
+	    display:block;
+		position: absolute;
+		top: 100px;
+		width:1020px ; height: 673px;
+		background-image: url('../images/table_background.png'); 
+}
+
+
+#pricing_table td{
+	
+	background-color: rgb(242,242,242);
+	height: 50px;
+	
+}
+
+#blueglass{
+	display: none;
+	position: absolute;
+	width: 150px; height: 529px;
+	background-image: url('../images/blueglassBG.png');
+	background-repeat: repeat-y;
+	/*top: 122px ; left: 445px;*/
+  /*top: 122px ; left: 597px;*/
+  /*top: 122px ; left: 751px;*/
+		
+	
+}
+.blueglass_left{
+	
+	top: 122px ; left: 445px;
+}
+.blueglass_center{
+	
+	top: 122px ; left: 597px;
+}
+.blueglass_right{
+	
+	top: 122px ; left: 751px;
+}
+
+#disp{
+	display: block;
+}
+
+.pricing_table_wrapper{
+	
+	
+	
+}
+
+
+.pricing_select{
+	display: block;
+	background-image: url('../images/pricing_select_button.png');
+	width: 107px; height: 36px;	
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+ .pricing_select span{
+    display: block; 
+    color: rgb(64,64,64);;
+	width: auto;
+	height: 36px;
+    font-size: 20px;
+	font-weight:bold;
+    font-family: "Calibri","Cordia New" ;
+    text-align: center;
+	vertical-align: 5px;
+}
+ span{
+    display: block; 
+    color: #87878a;
+    font-size: 20px;
+    font-family: "Calibri","Cordia New" ;
+    text-align: left;
+}#pricing_table{
+	   position:absolute;
+	   width: 853px; height: 534px;
+    left: 50px; top 50px;	
+    border-radius: 10px;
+     margin-top: 120px;
+   
+ 
+   
+}
+
+
+#title_upgrade {
+	display: block;
+	position:absolute;
+	left:40px;
+	top:10 px;
+	width:370px;
+	height:20px;
+	z-index:1;
+	font-family: "Myriad Pro", "MS Serif", sans-serif, Calibri;
+}
+#title_upgrade p {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#input_form {
+	display:block;
+	position:absolute;
+	left:123px;
+	top:706px;
+	width:666px;
+	height:201px;
+	z-index:1;
+	background-color: #3399CC;
+}
+
+
+
+
+
+
+
