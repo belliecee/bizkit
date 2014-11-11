@@ -4,12 +4,10 @@
     Author     : lll3ell
     Description:
         Purpose of the stylesheet follows.
+
+        PATH : bizkit/css/header_panel.css
 */
 
-/* 
-   TODO customize this sample style
-   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
-*/
 
 body{
     padding: 0;
@@ -40,7 +38,7 @@ body{
 
 #header_wrapper2{
     display: block;
-     width: 100% ; height: 115px;  
+     width: 100% ; height: 90px;
     z-index: -1;
     /*margin: 0 auto;*/
     

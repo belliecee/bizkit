@@ -5,7 +5,7 @@ and open the template in the editor.
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>BizkitInvoice Home</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
        
        
@@ -39,7 +39,7 @@ and open the template in the editor.
         <link href="assets/frontend/layout/css/style.css" rel="stylesheet">
         <link href="assets/frontend/pages/css/style-revolution-slider.css" rel="stylesheet"><!-- metronic revo slider styles -->
         <link href="assets/frontend/layout/css/style-responsive.css" rel="stylesheet">
-        <link href="assets/frontend/layout/css/themes/red.css" rel="stylesheet" id="style-color">
+        <link href="assets/frontend/layout/css/themes/green.css" rel="stylesheet" id="style-color">
         <link href="assets/frontend/layout/css/custom.css" rel="stylesheet">
         <!-- Theme styles END -->
 

@@ -2854,6 +2854,8 @@ Demo Utils
   margin-top: 5px;
   font-size: 14px;
   font-style: italic;
+	text-align: center;
+	color:white;
 }
 .pricing-head h3 {
   font-weight: 300;
